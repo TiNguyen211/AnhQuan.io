@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Anh Quân - Java Backend Developer Student at CodeGym.">
+    <meta name="keywords" content="Java, Backend, Developer, CodeGym, Portfolio, Anh Quan">
+    <meta name="author" content="Anh Quân">
+    <title>Anh Quân | Java Backend Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light-mode">
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">Anh<span>Quan</span></div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-extra">
+                <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section id="hero" class="hero-section">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge">Backend Developer | Java Fresher</span>
+                <h1>Building <span class="highlight">Scalable Foundations</span></h1>
+                <p class="description">
+                    Hello, I'm <strong>Anh Quân</strong>. I specialize in building robust backend systems with Java.
+                    With a disciplined mindset and attention to detail, I view every line of code as a foundation for
+                    building stable and efficient systems.
+                </p>
+
+                <div class="goals-box">
+                    <div class="short-term">
+                        <h4><i class="fas fa-bullseye"></i> 1-2 Year Goals</h4>
+                        <p>Build a solid backend foundation with Java, Spring Boot, and MySQL. Master algorithmic
+                            thinking and Clean Code through real-world projects.</p>
+                    </div>
+                    <div class="long-term">
+                        <h4><i class="fas fa-rocket"></i> 3-5 Year Goals</h4>
+                        <p>Become a specialized Backend Engineer capable of designing and operating large-scale
+                            distributed systems and optimizing high-performance backend architectures.</p>
+                    </div>
+                </div>
+
+                <div class="hero-btns">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="https://github.com/TiNguyen211" target="_blank" class="btn secondary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="assets/avatar.jpg" alt="Anh Quân" class="profile-img">
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-val">Core Focus</span>
+                        <span class="stat-label">Spring Framework</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-val">Commitment</span>
+                        <span class="stat-label">Daily LeetCode</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projects & Practice</h2>
+                <p class="subtitle">Solving technical challenges through systems thinking</p>
+                <div class="line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: Bank Management -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Bank Management System</h3>
+                        <p class="project-desc">Professional bank account management application focusing on system
+                            architecture and secure data processing.</p>
+                        <div class="tech-stack">
+                            <span>Java Core</span>
+                            <span>CSV I/O</span>
+                            <span>Exception Handling</span>
+                            <span>OOP Principles</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/TiNguyen211/APJ-EXAM_CGHN007813_LeKhacAnhQuan" target="_blank">
+                                <i class="fab fa-github"></i> View Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 3: Flappy Bird Java -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Flappy Bird Java</h3>
+                        <p class="project-desc">A faithful recreation of the classic arcade game, focusing on real-time
+                            rendering, collision detection, and game loop management.</p>
+                        <div class="tech-stack">
+                            <span>Java Core</span>
+                            <span>Swing / AWT</span>
+                            <span>OOP Logic</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/TiNguyen211/Flappy-Bird" target="_blank">
+                                <i class="fas fa-arrow-right"></i> Explore Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Mini Platformer -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Mini Platformer</h3>
+                        <p class="project-desc">A 2D platforming engine built in Java, featuring physics-based movement,
+                            tilemap rendering, and state-driven mechanics.</p>
+                        <div class="tech-stack">
+                            <span>Java Core</span>
+                            <span>Graphics2D</span>
+                            <span>Physics Physics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/TiNguyen211/Mini-PlatFormer" target="_blank">
+                                <i class="fas fa-arrow-right"></i> Explore Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="leetcode-practice">
+                <div class="leetcode-info">
+                    <h3><i class="fas fa-code"></i> LeetCode Practice</h3>
+                    <p>I dedicate time daily to practice algorithms and data structures on LeetCode to sharpen my
+                        logical thinking and optimize backend logic.</p>
+                    <div class="leetcode-cta">
+                        <a href="https://leetcode.com/u/Tomato21/" target="_blank" class="btn outline small">View
+                            LeetCode Profile</a>
+                    </div>
+                </div>
+                <div class="leetcode-stats-badge">
+                    <a href="https://leetcode.com/u/Tomato21/" target="_blank">
+                        <img id="leetcode-stats-card"
+                            src="https://leetcard.jacoblin.cool/Tomato21?theme=light&font=Inter" alt="LeetCode Stats">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <p class="subtitle">Building a methodical skill system for long-term growth</p>
+                <div class="line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4><i class="fas fa-code"></i> Programming Languages</h4>
+                    <div class="tags">
+                        <span class="tag">Java Core</span>
+                        <span class="tag">OOP Principles</span>
+                        <span class="tag">Java Streams & Lambdas</span>
+                        <span class="tag">JavaScript (Basic)</span>
+                        <span class="tag">Python (Basic)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-server"></i> Backend & Web</h4>
+                    <div class="tags">
+                        <span class="tag">MVC Architecture</span>
+                        <span class="tag">REST API Basics</span>
+                        <span class="tag">Servlet & JSP</span>
+                        <span class="tag">Spring Boot (In progress)</span>
+                        <span class="tag">JDBC</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-database"></i> Database</h4>
+                    <div class="tags">
+                        <span class="tag">MySQL Fundamentals</span>
+                        <span class="tag">SQL Queries</span>
+                        <span class="tag">Database Normalization</span>
+                        <span class="tag">Schema Design</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-tools"></i> Tools & Others</h4>
+                    <div class="tags">
+                        <span class="tag">Git / GitHub</span>
+                        <span class="tag">Clean Code Mindset</span>
+                        <span class="tag">Unit Testing Basics</span>
+                        <span class="tag">Postman</span>
+                        <span class="tag">Agile/Scrum</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact</h2>
+                <p class="subtitle">Ready for new challenges and collaboration opportunities</p>
+                <div class="line"></div>
+            </div>
+            <div class="contact-bar">
+                <a href="mailto:lekhacanhquan211@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i> lekhacanhquan211@gmail.com
+                </a>
+                <a href="https://github.com/TiNguyen211" target="_blank" class="contact-link">
+                    <i class="fab fa-github"></i> github.com/TiNguyen211
+                </a>
+                <a href="#" class="contact-link">
+                    <i class="fab fa-linkedin"></i> LinkedIn (Profile)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p class="copyright">&copy; 2024 Anh Quân. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
