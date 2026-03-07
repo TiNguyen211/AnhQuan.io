@@ -76,8 +76,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Contact form logic removed as form was removed from HTML
-
 const sections = document.querySelectorAll('section');
 const navLinks = document.querySelectorAll('.nav-links a');
 
@@ -101,7 +99,6 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Reveal Animation Logic
 const revealElements = document.querySelectorAll('.reveal');
 
 const revealObserver = new IntersectionObserver((entries) => {
@@ -118,4 +115,3 @@ const revealObserver = new IntersectionObserver((entries) => {
 revealElements.forEach(el => {
     revealObserver.observe(el);
 });
-

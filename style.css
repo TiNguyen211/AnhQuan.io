@@ -141,7 +141,6 @@ h4 {
     transform: rotate(15deg) scale(1.1);
 }
 
-/* Reveal Animations */
 .reveal {
     opacity: 0;
     transform: translateY(30px);
@@ -685,7 +684,6 @@ footer {
     letter-spacing: 0.2em;
 }
 
-/* Mobile Adjustments */
 @media (max-width: 992px) {
     .hero-grid {
         grid-template-columns: 1fr;
