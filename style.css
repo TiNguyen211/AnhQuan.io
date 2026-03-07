@@ -10,10 +10,10 @@
     --border-color: #F3E5D8;
     --nav-bg: rgba(253, 252, 251, 0.8);
     --highlight: #C4A484;
-    --glass-bg: rgba(255, 255, 255, 0.7);
-    --glass-border: rgba(196, 164, 132, 0.2);
-    --luxury-shadow: 0 20px 40px rgba(78, 52, 46, 0.06);
-    --transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    --glass-bg: rgba(255, 255, 255, 0.4);
+    --glass-border: rgba(196, 164, 132, 0.3);
+    --luxury-shadow: 0 30px 60px rgba(78, 52, 46, 0.08);
+    --transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 body.dark-mode {
@@ -26,9 +26,9 @@ body.dark-mode {
     --card-bg: #261C15;
     --border-color: #3D2F26;
     --nav-bg: rgba(26, 18, 11, 0.85);
-    --glass-bg: rgba(38, 28, 21, 0.7);
-    --glass-border: rgba(196, 164, 132, 0.15);
-    --luxury-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    --glass-bg: rgba(26, 18, 11, 0.6);
+    --glass-border: rgba(196, 164, 132, 0.25);
+    --luxury-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
 }
 
 * {
@@ -83,7 +83,7 @@ h4 {
     background: var(--nav-bg);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--glass-border);
-    padding: 1.25rem 0;
+    padding: 1rem 0;
     transition: var(--transition);
 }
 
@@ -138,7 +138,20 @@ h4 {
 }
 
 #theme-toggle:hover {
-    transform: rotate(15deg);
+    transform: rotate(15deg) scale(1.1);
+}
+
+/* Reveal Animations */
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    will-change: opacity, transform;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .menu-btn {
