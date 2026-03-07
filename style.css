@@ -502,10 +502,12 @@ section {
 .education-card {
     background: var(--card-bg);
     border: 1px solid var(--border-color);
-    padding: 3rem;
+    padding: 3.5rem;
     border-radius: 4px;
     box-shadow: var(--luxury-shadow);
     transition: var(--transition);
+    position: relative;
+    border: 1px solid rgba(196, 164, 132, 0.15);
 }
 
 .education-card:hover {
@@ -517,68 +519,73 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .edu-title h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: var(--primary-color);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
+    font-weight: 800;
 }
 
 .edu-title .institution {
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 700;
     color: var(--accent-color);
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1em;
 }
 
 .edu-date {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: 700;
     color: var(--text-muted);
-    background: var(--bg-color);
-    padding: 0.5rem 1rem;
+    background: rgba(78, 52, 46, 0.05);
+    padding: 0.6rem 1.2rem;
     border-radius: 2px;
     border: 1px solid var(--border-color);
 }
 
 .edu-details {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 4rem;
 }
 
 .edu-info h5 {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
     color: var(--accent-color);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
 }
 
 .edu-info p {
     font-size: 1rem;
     color: var(--text-muted);
+    line-height: 1.8;
 }
 
 .edu-tech-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.75rem;
+    gap: 0.8rem;
 }
 
 .edu-tech-tags span {
-    font-size: 0.75rem;
-    font-weight: 700;
-    padding: 0.4rem 0.8rem;
-    background: var(--bg-color);
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 0.6rem 1rem;
+    background: rgba(78, 52, 46, 0.03);
     border: 1px solid var(--border-color);
     color: var(--primary-color);
     text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-radius: 2px;
 }
 
 @media (max-width: 768px) {
